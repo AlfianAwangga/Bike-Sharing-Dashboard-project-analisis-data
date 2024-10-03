@@ -49,8 +49,8 @@ def create_by_hum_df(df):
     by_hum_df["hum_percent"] = by_hum_df.index*100
     return by_hum_df
 
-hour_df = pd.read_csv("hour.csv")
-day_df = pd.read_csv("day.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
+day_df = pd.read_csv("dashboard/day.csv")
 
 workingday_df = create_workingday_df(day_df)
 holiday_df = create_holiday_df(day_df)
