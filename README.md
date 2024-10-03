@@ -1,5 +1,3 @@
-#Bike-Sharing Dashboard
-##Run Streamlit app
-'''
-streamlit run dashboard.py
-'''
+# Bike-Sharing Dashboard
+## Run Streamlit app
+`streamlit run dashboard.py`
